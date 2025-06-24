@@ -1,13 +1,13 @@
 {
-  "name": "Calculator",
-  "short_name": "Calc",
+  "name": "BMI-Calculator",
+  "short_name": "BMI",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#222",
   "theme_color": "#43c6ac",
   "icons": [
     {
-      "src": "calculator.png",
+      "src": "bmi.png",
       "sizes": "512x512",
       "type": "image/png"
     }
