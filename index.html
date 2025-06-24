@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Colorful BMI Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container" id="mainContainer">
+    <h1>🌈 BMI Calculator</h1>
+    <div id="bmiForm">
+      <div class="form-group">
+        <label for="height">Height (cm):</label>
+        <input type="number" id="height" min="50" max="250" required autocomplete="off">
+      </div>
+      <div class="form-group">
+        <label for="weight">Weight (kg):</label>
+        <input type="number" id="weight" min="10" max="300" required autocomplete="off">
+      </div>
+      <button id="calcBtn" onclick="calculateBMI()">✨ Calculate BMI</button>
+      <div id="result" class="result-box"></div>
+    </div>
+    <div id="instructionsPage" style="display:none;"></div>
+    <div class="footer">Made with <span style="color:#ff5b5b;">&#10084;</span> by ShekharSonawane</div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
