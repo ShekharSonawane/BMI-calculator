@@ -32,7 +32,7 @@ h1 {
   text-shadow: 0 3px 8px #e0f0ff88, 0 1px 0 #fff;
   background: linear-gradient(90deg,#21d4fd,#b721ff,#ff5b5b,#ffd200);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+/*   -webkit-text-fill-color: transparent; */
 }
 
 .form-group {
